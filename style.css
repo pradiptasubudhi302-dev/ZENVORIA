@@ -289,3 +289,12 @@ html {
         transform: rotate(360deg);
     }
 }
+#portfolio {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
