@@ -243,3 +243,22 @@ html {
 .contact-form button:hover{
     transform:scale(1.05);
 }
+#themeToggle {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background: #38bdf8;
+    color: white;
+}
+
+.light-mode {
+    background: #ffffff;
+    color: #111111;
+}
+
+.light-mode .card {
+    background: #f3f4f6;
+    color: #111111;
+}
