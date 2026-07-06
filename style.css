@@ -85,3 +85,37 @@ footer{
   padding:30px;
   background:#020617;
 }
+.hero{
+  background:
+    radial-gradient(circle at top left,#38bdf855,transparent 40%),
+    radial-gradient(circle at bottom right,#8b5cf655,transparent 40%),
+    linear-gradient(135deg,#0f172a,#111827,#1e293b);
+  background-size: 200% 200%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+.logo{
+  font-size:30px;
+  font-weight:bold;
+  color:#38bdf8;
+  letter-spacing:2px;
+}
+
+.card{
+  transition:0.4s;
+}
+
+.card:hover{
+  transform:translateY(-12px);
+  box-shadow:0 15px 35px rgba(56,189,248,.35);
+}
+
+html{
+  scroll-behavior:smooth;
+}
